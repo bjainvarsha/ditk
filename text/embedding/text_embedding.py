@@ -130,7 +130,6 @@ class TextEmbedding(abc.ABC):
 	@abc.abstractmethod
 	def save_model(self, file):
 		"""
-
 		:param file: Where to save the model - Optional function
 		:return:
 		"""
@@ -139,7 +138,6 @@ class TextEmbedding(abc.ABC):
 	@abc.abstractmethod
 	def load_model(self, file):
 		"""
-
 		:param file: From where to load the model - Optional function
 		:return:
 		"""
